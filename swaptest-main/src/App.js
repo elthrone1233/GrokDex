@@ -66,7 +66,7 @@ function App() {
               {sidebarOpen && (
                 <div className="text-l font-bold flex items-center gap-2">
                  <img src="logo.png" alt="logo" className="h-8 w-8" />
-                 Grokscreener
+                 GrokDex
                 </div>
               )}
               <button onClick={toggleSidebar}>
@@ -151,7 +151,7 @@ function App() {
               <div className="text-2xl font-bold flex items-center gap-2">
                   <img src="logo.png" alt="logo" className="h-8 w-8" />
                
-               Grokscreener
+              GrokDex
               </div>
               <button onClick={closeMobile}>
                 <X size={28} />
